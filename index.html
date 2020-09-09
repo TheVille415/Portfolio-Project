@@ -3,12 +3,13 @@
 <html>
     <head>
         <title>Jordan's Portfolio</title>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
 
 <body>
 
     <nav>
-        <ul>
+        <ul id="nav-list">
             <li><a href="#about">About Me</a></li>
             <li><a href="#exp">Experience</a></li> 
             <li><a href="#skills-list">Skills</a></li>
@@ -17,19 +18,19 @@
         </ul>
     </nav> 
   
-  <!--This is my intro to me!-->
+    <!--This is my intro to me!-->
     <header>
-        <h1>Hi, I'm<br>Jordan Torres</h1>
+        <h1>Hi, I'm Jordan Torres</h1>
     </header>
-        <!--About me-->
-    <article id="about">
-        <h1>About Me</h1>
+     <!--About me-->
+     <article id="about">
+        <h2>About Me</h2>
         <p>My name is Jordan Torres. Born and raised in San Francisco, I saw the tech boom happen in real time! I started my working at the age 16 with an internship at the California Academy of Sciences. Since then I worked many different jobs and tried my hand at other colleges. After sometime off from my last try at college and a job at Verily, I ended up here at Make School. I am very excited to be apart of this cohort and to learn with everyone! Please feel free to reach out and talk!</p>
     </article>
     <!--Sugar-->
-    <article>
-        <figcaption id="dog">
-            Here is a picture of my dog Sugar!
+    <article id="dog">
+        <figcaption>
+            <p>Here is a picture of my dog Sugar!</p>
         </figcaption>
         <figure>
             <img src="IMG_1064.JPG" 
@@ -38,6 +39,7 @@
             alt="My dog named sugar who is a Maltese">
         </figure>
     </article>
+    <br>
     <article id="exp">
         <p>Here are some of the titles I've held over the years!</p>
         <ul>
@@ -63,9 +65,11 @@
 <!--Connect-->
     <footer id="contact">
         <h3>Connect with me!</h3>
+        <section id="contact-list">
         <p><a href="mailto:jordan.torres@students.makeschool.com">Email</a></p>
         <p><a href= "https://www.linkedin.com/in/jt-jordantorres/">Linkedin</a></p>
         <p><a href= "https://github.com/TheVille415">Github</a></p>
+        </section>
     </footer>
 </body>
 </html>

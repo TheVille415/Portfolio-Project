@@ -1,0 +1,75 @@
+header{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(62, 62, 82);
+    font-size: 1.1rem;
+    color: #eee;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: lighter;
+}
+
+h1{
+    font-weight: lighter;
+    color: rgb(224, 177, 89);
+}
+
+
+#about{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    background-color: rgba(47, 47, 143, 0.425);
+    color: rgba(245, 245, 245, 0.925);
+    margin: 1px;
+    padding: 0.5rem 1rem;
+    display: block;
+    border-radius: 0.5rem;
+
+}
+a:hover{
+    color:rgb(243, 193, 67);
+}
+#nav-list{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    list-style: none;
+}
+#exp{
+    text-align: center;
+    font-weight: bolder;
+}
+#exp ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: circle;
+    font-weight: lighter;
+}
+#skills-list{
+    text-align: center;
+    font-weight: bolder;
+}
+#skills-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: circle;
+    font-weight: lighter;
+}
+#contact{
+    text-align: center;
+}
+#contact h3{
+    font-size: 1.4rem;
+}
+#contact-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+
